@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.youssefbazzaoui.notebookapp.MainDomainActivity">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        android:background="@drawable/backg">
+
+        <EditText
+            android:id="@+id/txtDomain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="6dp" />
+
+        <Button
+            android:id="@+id/btnNewDomain"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@+id/txtDomain"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="Add domaine"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="6dp" />
+
+        <ListView
+            android:id="@+id/lstDomains"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/btnNewDomain" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

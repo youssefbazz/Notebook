@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.youssefbazzaoui.notebookapp.AddWordActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:background="@drawable/backg">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editTextEn"
+            android:layout_alignStart="@+id/textView"
+            android:layout_marginBottom="44dp"
+            android:text="Word in english "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="99dp"
+
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@+id/btnAdd"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="View"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editTextFr"
+
+            android:layout_marginStart="63dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Add"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editTextEn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="62dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/edittextstyle"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="" />
+
+
+        <EditText
+            android:id="@+id/editTextFr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnView"
+            android:layout_alignStart="@+id/btnAdd"
+            android:layout_marginBottom="44dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/edittextstyle"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editTextFr"
+            android:layout_alignEnd="@+id/btnAdd"
+            android:layout_marginBottom="23dp"
+            android:text="Word in french "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
+
+
+
+

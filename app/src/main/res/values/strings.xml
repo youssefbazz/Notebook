@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NotebookApp</string>
+    <string name="title_activity_import">Import dictionnary</string>
+    <string name="title_activity_export">export</string>
+</resources>

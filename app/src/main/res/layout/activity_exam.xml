@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.youssefbazzaoui.notebookapp.Exam">
+
+    <RelativeLayout
+        android:layout_width="503dp"
+        android:layout_height="608dp"
+        android:background="@drawable/backg">
+
+        <Button
+            android:id="@+id/btn_verify"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="113dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="verify"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editTextword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/edittextstyle"
+
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="Your answer" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="500dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="129dp"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
