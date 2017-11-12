@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import com.youssefbazzaoui.notebookapp.R;
+
 
 public class AddWordActivity extends AppCompatActivity {
 
@@ -18,6 +18,9 @@ public class AddWordActivity extends AppCompatActivity {
     private Button btnAdd, btnViewData;
     private EditText editTextEn;
     private EditText editTextFr;
+    private EditText test;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
